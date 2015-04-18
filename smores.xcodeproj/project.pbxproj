@@ -62,7 +62,7 @@
 		093C70811AE1BBE100E3C3B5 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		093C70821AE1BBE100E3C3B5 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		093C70831AE1BBE100E3C3B5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		099C110F1AE1501D00AD8A4F /* smorez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smorez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		099C110F1AE1501D00AD8A4F /* smoresz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smoresz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099C11131AE1501D00AD8A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C11141AE1501D00AD8A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		099C11161AE1501D00AD8A4F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		099C111B1AE1501D00AD8A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		099C111D1AE1501D00AD8A4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		099C11201AE1501D00AD8A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		099C11261AE1501D00AD8A4F /* smorezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smorezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		099C11261AE1501D00AD8A4F /* smoreszTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoreszTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099C112B1AE1501D00AD8A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C112C1AE1501D00AD8A4F /* smoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smoresTests.swift; sourceTree = "<group>"; };
 		099C11361AE1571200AD8A4F /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 		099C11101AE1501D00AD8A4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				099C110F1AE1501D00AD8A4F /* smorez.app */,
-				099C11261AE1501D00AD8A4F /* smorezTests.xctest */,
+				099C110F1AE1501D00AD8A4F /* smoresz.app */,
+				099C11261AE1501D00AD8A4F /* smoreszTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		099C110E1AE1501D00AD8A4F /* smorez */ = {
+		099C110E1AE1501D00AD8A4F /* smoresz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 099C11301AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smorez" */;
+			buildConfigurationList = 099C11301AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smoresz" */;
 			buildPhases = (
 				099C110B1AE1501D00AD8A4F /* Sources */,
 				099C110C1AE1501D00AD8A4F /* Frameworks */,
@@ -210,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = smorez;
+			name = smoresz;
 			productName = temp;
-			productReference = 099C110F1AE1501D00AD8A4F /* smorez.app */;
+			productReference = 099C110F1AE1501D00AD8A4F /* smoresz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		099C11251AE1501D00AD8A4F /* smorezTests */ = {
+		099C11251AE1501D00AD8A4F /* smoreszTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 099C11331AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smorezTests" */;
+			buildConfigurationList = 099C11331AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smoreszTests" */;
 			buildPhases = (
 				099C11221AE1501D00AD8A4F /* Sources */,
 				099C11231AE1501D00AD8A4F /* Frameworks */,
@@ -228,9 +228,9 @@
 			dependencies = (
 				099C11281AE1501D00AD8A4F /* PBXTargetDependency */,
 			);
-			name = smorezTests;
+			name = smoreszTests;
 			productName = tempTests;
-			productReference = 099C11261AE1501D00AD8A4F /* smorezTests.xctest */;
+			productReference = 099C11261AE1501D00AD8A4F /* smoreszTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -244,6 +244,7 @@
 				TargetAttributes = {
 					099C110E1AE1501D00AD8A4F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7L6ZG648LR;
 					};
 					099C11251AE1501D00AD8A4F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -264,8 +265,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				099C110E1AE1501D00AD8A4F /* smorez */,
-				099C11251AE1501D00AD8A4F /* smorezTests */,
+				099C110E1AE1501D00AD8A4F /* smoresz */,
+				099C11251AE1501D00AD8A4F /* smoreszTests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +316,7 @@
 /* Begin PBXTargetDependency section */
 		099C11281AE1501D00AD8A4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 099C110E1AE1501D00AD8A4F /* smorez */;
+			target = 099C110E1AE1501D00AD8A4F /* smoresz */;
 			targetProxy = 099C11271AE1501D00AD8A4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,6 +422,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/apprentice/Downloads/parse-library-1.6.2",
@@ -429,7 +432,8 @@
 				);
 				INFOPLIST_FILE = temp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = smorez;
+				PRODUCT_NAME = smoresz;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -437,6 +441,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/apprentice/Downloads/parse-library-1.6.2",
@@ -445,7 +451,8 @@
 				);
 				INFOPLIST_FILE = temp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = smorez;
+				PRODUCT_NAME = smoresz;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -463,7 +470,7 @@
 				);
 				INFOPLIST_FILE = tempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = smorezTests;
+				PRODUCT_NAME = smoreszTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temp.app/temp";
 			};
 			name = Debug;
@@ -478,7 +485,7 @@
 				);
 				INFOPLIST_FILE = tempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = smorezTests;
+				PRODUCT_NAME = smoreszTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/temp.app/temp";
 			};
 			name = Release;
@@ -495,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		099C11301AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smorez" */ = {
+		099C11301AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smoresz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				099C11311AE1501D00AD8A4F /* Debug */,
@@ -504,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		099C11331AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smorezTests" */ = {
+		099C11331AE1501D00AD8A4F /* Build configuration list for PBXNativeTarget "smoreszTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				099C11341AE1501D00AD8A4F /* Debug */,
