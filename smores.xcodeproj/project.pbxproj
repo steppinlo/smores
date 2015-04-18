@@ -24,8 +24,6 @@
 		093C70871AE1BBE100E3C3B5 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C70811AE1BBE100E3C3B5 /* ParseFacebookUtils.framework */; };
 		093C70881AE1BBE100E3C3B5 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C70821AE1BBE100E3C3B5 /* ParseFacebookUtilsV4.framework */; };
 		093C70891AE1BBE100E3C3B5 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093C70831AE1BBE100E3C3B5 /* ParseUI.framework */; };
-		093C708C1AE21DB000E3C3B5 /* IMG_5581.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 093C708B1AE21DAF00E3C3B5 /* IMG_5581.MOV */; };
-		093C708E1AE21E6D00E3C3B5 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 093C708D1AE21E6D00E3C3B5 /* unnamed.png */; };
 		099C11151AE1501D00AD8A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C11141AE1501D00AD8A4F /* AppDelegate.swift */; };
 		099C11171AE1501D00AD8A4F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C11161AE1501D00AD8A4F /* FirstViewController.swift */; };
 		099C11191AE1501D00AD8A4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C11181AE1501D00AD8A4F /* SecondViewController.swift */; };
@@ -64,8 +62,6 @@
 		093C70811AE1BBE100E3C3B5 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		093C70821AE1BBE100E3C3B5 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		093C70831AE1BBE100E3C3B5 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		093C708B1AE21DAF00E3C3B5 /* IMG_5581.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5581.MOV; sourceTree = "<group>"; };
-		093C708D1AE21E6D00E3C3B5 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
 		099C110F1AE1501D00AD8A4F /* smorez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smorez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099C11131AE1501D00AD8A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099C11141AE1501D00AD8A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,12 +157,10 @@
 		099C11111AE1501D00AD8A4F /* smores */ = {
 			isa = PBXGroup;
 			children = (
-				093C708D1AE21E6D00E3C3B5 /* unnamed.png */,
 				099C11141AE1501D00AD8A4F /* AppDelegate.swift */,
 				099C11161AE1501D00AD8A4F /* FirstViewController.swift */,
 				099C11181AE1501D00AD8A4F /* SecondViewController.swift */,
 				099C11361AE1571200AD8A4F /* ThirdViewController.swift */,
-				093C708B1AE21DAF00E3C3B5 /* IMG_5581.MOV */,
 				099C111A1AE1501D00AD8A4F /* Main.storyboard */,
 				099C111D1AE1501D00AD8A4F /* Images.xcassets */,
 				099C111F1AE1501D00AD8A4F /* LaunchScreen.xib */,
@@ -284,8 +278,6 @@
 				099C111C1AE1501D00AD8A4F /* Main.storyboard in Resources */,
 				099C11211AE1501D00AD8A4F /* LaunchScreen.xib in Resources */,
 				099C111E1AE1501D00AD8A4F /* Images.xcassets in Resources */,
-				093C708E1AE21E6D00E3C3B5 /* unnamed.png in Resources */,
-				093C708C1AE21DB000E3C3B5 /* IMG_5581.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
